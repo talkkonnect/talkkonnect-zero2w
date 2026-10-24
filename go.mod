@@ -1,0 +1,60 @@
+module github.com/talkkonnect/talkkonnect
+
+go 1.26.0
+
+require (
+	github.com/adrianmo/go-nmea v1.10.0
+	github.com/allan-simon/go-singleinstance v0.0.0-20210120080615-d0997106ab37
+	github.com/eclipse/paho.mqtt.golang v1.5.1
+	github.com/glendc/go-external-ip v0.1.0
+	github.com/go-sql-driver/mysql v1.10.0
+	github.com/gvalkov/golang-evdev v0.0.0-20220815104727-7e27d6ce89b6
+	github.com/jacobsa/go-serial v0.0.0-20180131005756-15cf729a72d4
+	github.com/kennygrant/sanitize v1.2.4
+	github.com/sevlyar/go-daemon v0.1.6
+	github.com/talkkonnect/go-hd44780 v0.0.0-20210824123606-f3398c777f39
+	github.com/talkkonnect/go-mcp23017 v0.0.0-20210831103122-1c46ab6c8c82
+	github.com/talkkonnect/go-oled-i2c v0.0.0-20220315132146-0f5a50f4aa0a
+	github.com/talkkonnect/go-openal v0.1.0
+	github.com/talkkonnect/gosshd v0.0.0-20231108084422-bc154c18c28f
+	github.com/talkkonnect/gumble v0.0.0-20220821092831-ea5c6eef89b5
+	github.com/talkkonnect/max7219 v0.0.0-20220213082435-2caf99768298
+	github.com/talkkonnect/sa818 v0.0.0-20220127110204-d50fa95aa36e
+	github.com/talkkonnect/volume-go v0.0.0-20240215065754-67c18d0add8a
+	github.com/warthog618/go-gpiocdev v0.9.1
+	github.com/xackery/gomail v0.0.0-20150929200936-cc84600edc17
+	golang.org/x/crypto v0.58.0
+	golang.org/x/net v0.60.0
+	golang.org/x/sys v0.49.0
+	golang.org/x/term v0.47.0
+	golang.org/x/text v0.43.0
+)
+
+require (
+	filippo.io/edwards25519 v1.2.0 // indirect
+	github.com/creack/pty v1.1.24 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/fulr/spidev v0.0.0-20150210165549-524e13e3fac2 // indirect
+	github.com/go-ole/go-ole v1.2.6 // indirect
+	github.com/golang/glog v1.2.5 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
+	github.com/moutend/go-wca v0.2.0 // indirect
+	github.com/stianeikeland/go-rpio v4.2.0+incompatible // indirect
+	github.com/talkkonnect/embd v0.0.0-20210824124053-e127c37e1577 // indirect
+	github.com/talkkonnect/go-i2c v0.0.0-20190316095740-e326afb7fdb1 // indirect
+	github.com/talkkonnect/go-logger v0.0.0-20190316101244-635f8e12dd6c // indirect
+	github.com/talkkonnect/gopus v0.0.0-20220213040034-763f05853b2f // indirect
+	golang.org/x/sync v0.24.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
+	periph.io/x/conn/v3 v3.7.3 // indirect
+	periph.io/x/devices/v3 v3.7.4 // indirect
+	periph.io/x/host/v3 v3.8.5 // indirect
+)
+
+replace github.com/talkkonnect/gopus => ./third_party/gopus
+
+replace github.com/talkkonnect/gumble => ./third_party/gumble
+
+replace github.com/talkkonnect/go-openal => ./third_party/go-openal
